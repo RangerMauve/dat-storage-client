@@ -92,7 +92,7 @@ module.exports = class DatStorageClient {
   }
 
   async _getAccountsPath (path) {
-    const href = this._getHref(ACCOUNTS_API_REL)
+    const href = await this._getHref(ACCOUNTS_API_REL)
 
     const url = new URL(path, href)
 
@@ -100,7 +100,7 @@ module.exports = class DatStorageClient {
   }
 
   async _getDatsPath (path) {
-    const href = this._getHref(DATS_API_REL)
+    const href = await this._getHref(DATS_API_REL)
 
     const url = new URL(path, href)
 
