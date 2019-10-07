@@ -1,0 +1,29 @@
+{
+  "name": "dat-storage-client",
+  "version": "1.0.0",
+  "description": "A fetch-based API for interacting with dat storage providers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/dat-storage-client.git"
+  },
+  "keywords": [
+    "dat",
+    "pin",
+    "service",
+    "storage",
+    "store"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/dat-storage-client/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/dat-storage-client#readme",
+  "dependencies": {
+    "cross-fetch": "^3.0.4"
+  }
+}
